@@ -1,13 +1,16 @@
 {
   "src/*.spec.js": {
     "alternate": "src/{}.js",
-    "start": "yarn jest:watch src/{}.spec.js",
-    "dispatch": "yarn jest src/{}.spec.js"
+    "start": "yarn jest:watch {file}",
+    "dispatch": "yarn jest {file}"
   },
   "src/*.js": {
     "alternate": "src/{}.spec.js",
     "start": "yarn jest:watch src/{}.spec.js",
     "dispatch": "yarn jest src/{}.spec.js"
+  },
+  "*.js": {
+    "make": "yarn eslint --fix {file}"
   }
 }
 
