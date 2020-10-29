@@ -23,7 +23,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.20.3",
-    "eslint-plugin-react-hooks": "4.0.6",
+    "eslint-plugin-react-hooks": "4.2.0",
     "eslint-plugin-standard": "4.0.1",
     "html-webpack-plugin": "4.3.0",
     "jest": "26.1.0",
@@ -40,7 +40,7 @@
     "jest:watch": "jest --no-coverage --verbose --watch --runInBand --notify --notifyMode always"
   },
   "dependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
   }
 }
